@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(183, 168, 151);
+    padding:20px;
+    margin: 0 auto;
+    align-content: center;
+    justify-items: center;
+     max-width:600px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    align-content: center;
+    justify-items:center;
+    font-size:25px;
+}
+
+.assignment-grid {
+    display:flex;
+    gap:50px;
+    padding:60px;
+}
+
+.assignment-card {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.assignment-card h2 {
+    margin-top: 0;
+}
+
+.assignment-card:hover {
+    background-color:blueviolet;
+}
+
+
+
+
