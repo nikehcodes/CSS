@@ -1,18 +1,21 @@
 body {
-    background-color:rgb(183, 168, 151);
+    background-color: grey;
     padding:20px;
     margin: 0 auto;
     align-content: center;
     justify-items: center;
      max-width:600px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:sans-serif;
+
 }
+
 
 header {
     align-content: center;
     justify-items:center;
     font-size:25px;
 }
+
 
 .assignment-grid {
     display:flex;
@@ -34,6 +37,10 @@ header {
     background-color:blueviolet;
 }
 
-
+@media (max-width: 768px) {
+    .assignment-grid {
+        flex-direction: column;
+    }
+}
 
 
